@@ -1,0 +1,55 @@
+* {
+    background-color: #262f30;
+    color: #fff;
+    text-align: center;
+}
+.imagem {
+    width: 95%;
+    height: auto;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.texto {
+    margin: 2%;
+    text-align: justify;
+    font-size: 2.5rem;
+}
+
+.titulo-mapa {
+    font-size: 2.5rem;
+}
+
+.subtitulo-mapa {
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 515px) {
+    
+    .imagem {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+    
+    .titulo-mapa {
+        font-size: 20px;
+    }
+
+    .subtitulo-mapa {
+        font-size: 10px;
+    }
+
+    .texto {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+
+}
